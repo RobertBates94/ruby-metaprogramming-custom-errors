@@ -191,7 +191,8 @@ class Person
       raise PartnerError
     else
       person.partner = self
-    end
+    e
+    nd
   end
 
   class PartnerError < StandardError
